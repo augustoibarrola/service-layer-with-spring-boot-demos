@@ -1,0 +1,21 @@
+package com.geryon.service;
+
+import java.util.List;
+
+import com.geryon.model.Movie;
+
+public class MovieServiceImpl implements MovieService {
+
+	@Override
+	public String addMovie(Movie movie) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Movie> getMovies(String directorName) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

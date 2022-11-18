@@ -1,0 +1,5 @@
+package com.geryon.util;
+
+public class LoggingAspect {
+
+}

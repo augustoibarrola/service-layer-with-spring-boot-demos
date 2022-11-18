@@ -1,0 +1,35 @@
+package com.geryon;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.env.Environment;
+
+import com.geryon.service.MovieService;
+
+@SpringBootApplication
+public class DemoAspectOrientedProgrammingApplication implements CommandLineRunner{
+
+	
+	@Autowired
+	MovieService movieService;
+	
+	@Autowired
+	Environment environment;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(DemoAspectOrientedProgrammingApplication.class, args);
+	}
+	
+	@Override
+	public void run(String... strings args) throws Exception{
+		getMovies();
+	}
+
+	private void getMovies() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

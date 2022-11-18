@@ -1,0 +1,5 @@
+package com.geryon.dao;
+
+public class MovieDAOImpl {
+
+}

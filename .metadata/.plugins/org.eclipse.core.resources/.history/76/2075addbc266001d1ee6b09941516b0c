@@ -1,0 +1,5 @@
+package com.geryon.configuration;
+
+public class SpringConfig {
+
+}

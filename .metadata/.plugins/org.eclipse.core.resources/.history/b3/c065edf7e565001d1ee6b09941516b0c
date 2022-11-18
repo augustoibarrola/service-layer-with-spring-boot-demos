@@ -1,0 +1,5 @@
+package com.geryon.bean;
+
+public class WelcomeBean {
+
+}
